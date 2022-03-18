@@ -90,7 +90,3 @@ dellicone.style.display = "none";
 }
 dellicone.addEventListener("click", rem);
 
-
-
-
-

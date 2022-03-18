@@ -33,6 +33,7 @@ padding-top: 35px;
 
     
 }
+
 .maindiv{
 
     padding-top: 50px;
@@ -102,4 +103,8 @@ display: flex;
     .topnav{
         margin-left: 45vw;
         }
+  }
+
+  #section2{
+      background-color: #BAC7E6;
   }

@@ -1,3 +1,4 @@
+
 let tableid = document.getElementById("tableid")
 let main_headdivid = document.getElementById("main_headdivid")
 let xbtn = document.getElementById("xbtn")
@@ -6,6 +7,8 @@ let a
 let x=[]
 const serchbtn = document.getElementById("serchbtn");
 const serchinput = document.getElementById("serchinput");
+
+// Փնտրման ֆունկցիա
 function searchfu() {
     for (let i = 0; i < classinput.length; i++){
     a= serchinput.value
@@ -21,7 +24,7 @@ if (b!==-1) {
 
 }
 }
-
+// ֆունկցիան վերացնում է փնտրման արդյունքը
 function bacgroundnone() {
    for (let i = 0; i < x.length; i++) {
   
@@ -56,13 +59,13 @@ for (let i = 0; i < 44; i++) {
 }
 
 }
-addlist()
-// let classinput = document.getElementById("checkbox1")
-// let classinput = document.querySelectorAll(".classinput")
-const classinput = document.querySelectorAll("input.classinput");
 
+
+addlist()
+
+// աղբամանի կոճակը ըստ չեկբոկսի ակտիվի
+const classinput = document.querySelectorAll("input.classinput");
 var dellicone = document.getElementById("dellicone");
-// let classinput = document.getElementsByClassName("classinput")
 function delliteicone() {
  for (let i = 0; i < classinput.length; i++) {
     if (classinput[i].checked == true){
@@ -77,7 +80,7 @@ function delliteicone() {
 
 }
 
-
+// ջնջելու ֆունկցիան
 let trclass  = document.querySelectorAll(`.trclass`)
 function rem() {
     for (let i = 0; i < classinput.length; i++){
